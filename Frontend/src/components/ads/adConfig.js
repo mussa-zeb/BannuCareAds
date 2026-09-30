@@ -8,25 +8,25 @@ export const ADS_ENABLED = true
 export const HIDE_ADS_FOR_ROLES = ['admin', 'doctor']
 
 export const POPUNDER_SRC =
-  'https://pl31589313.profitableratecpmnetwork.com/5e/1d/3e/5e1d3ea73be78ad2f111711ff0a3921b.js'
+  'https://pl31596276.profitableratecpmnetwork.com/a3/59/72/a359723ae241162f0ea3e6062b529ed9.js'
 
 export const SOCIAL_BAR_SRC =
-  'https://pl31589315.profitableratecpmnetwork.com/3b/c6/d7/3bc6d764e02f9f9d21549d8ebd37a619.js'
+  'https://pl31596280.profitableratecpmnetwork.com/24/bc/8a/24bc8a1971a6131bc28f6b74ee850d20.js'
 
 export const NATIVE_BANNER = {
-  src: 'https://pl31589314.profitableratecpmnetwork.com/a560039e0640ce76d8103516afc765c6/invoke.js',
-  containerId: 'container-a560039e0640ce76d8103516afc765c6',
+  src: 'https://pl31596277.profitableratecpmnetwork.com/03aeee5be67e1ec1d779bff4ac9425ad/invoke.js',
+  containerId: 'container-03aeee5be67e1ec1d779bff4ac9425ad',
 }
 
 export const SMARTLINK_URL =
-  'https://www.profitableratecpmnetwork.com/by9e6d0df?key=012753694cfb4882f293e536097292b5'
+  'https://www.profitableratecpmnetwork.com/tcpqzuyr?key=cf7a6ad88fc22caa05b69c7483be605d'
 
 // iframe banners (highrevenueformat.com/<key>/invoke.js)
 export const BANNERS = {
-  b300x250: { key: '90ea3bc2e879bd41e408555550a8b553', width: 300, height: 250 },
-  b468x60:  { key: '084d165b565ba5a1a331ec199431a806', width: 468, height: 60 },
-  b160x600: { key: '2b54d80949c81b3750901f8b6681886d', width: 160, height: 600 },
-  b160x300: { key: '9928d767797a64101cb4962647f76276', width: 160, height: 300 },
-  b320x50:  { key: '9ce49d4bac18a6795581111ba91b48c2', width: 320, height: 50 },
-  b728x90:  { key: 'ced1119ab210a9025f06ebdc30e2347e', width: 728, height: 90 },
+  b300x250: { key: '0ea086c83aa4ec85a8571ff751db0fa2', width: 300, height: 250 },
+  b468x60:  { key: 'daed2a30cf5c8aa63dacc729356f0101', width: 468, height: 60 },
+  b160x600: { key: '2634b613081cf199156fe18b79819438', width: 160, height: 600 },
+  b160x300: { key: 'eff14d71ad960c596ef0461b03476c1b', width: 160, height: 300 },
+  b320x50:  { key: '3f31d398be0380af4ea8ad0cdd3fcffd', width: 320, height: 50 },
+  b728x90:  { key: '1b26812d7e5a488faff6d9bcbdb44d1a', width: 728, height: 90 },
 }

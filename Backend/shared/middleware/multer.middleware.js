@@ -8,7 +8,10 @@ const memoryUpload = multer({
 })
 
 /* ─── 2. Helper: stream the buffer up to Cloudinary ─── */
-const streamToCloudinary = (buffer, folder = 'bannucare') =>
+// Cloudinary folder — .env mein CLOUDINARY_FOLDER se override ho sakta hai
+const CLOUDINARY_FOLDER = process.env.CLOUDINARY_FOLDER || 'BannuCareAds'
+
+const streamToCloudinary = (buffer, folder = CLOUDINARY_FOLDER) =>
   new Promise((resolve, reject) => {
     const stream = cloudinary.uploader.upload_stream(
       { folder, resource_type: 'image' },
@@ -32,7 +35,7 @@ const upload = {
       try {
         const result = await streamToCloudinary(req.file.buffer)
         req.file.path = result.secure_url       // e.g. https://res.cloudinary.com/...
-        req.file.filename = result.public_id    // e.g. bannucare/1727...
+        req.file.filename = result.public_id    // e.g. BannuCareAds/1727...
         next()
       } catch (uploadErr) {
         next(uploadErr)
